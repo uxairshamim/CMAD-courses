@@ -1,0 +1,16 @@
+.heading{
+    color: #3498DB;
+}
+#heading1
+{
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+.heading2{
+    background-color: #BDC3C7;
+}
+.star{
+    color: red;
+}
+.size{
+    font-size: 170%;
+}

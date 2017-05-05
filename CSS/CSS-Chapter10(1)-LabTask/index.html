@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form action="index.html" method="POST">
+        <table id="back">
+            <tr>
+                <td colspan="2"><h1 class="head">User Registration Form</h1></td>            
+            </tr>
+            <tr>
+                <td>User Name:</td>
+                <td><input type="text" name="username" size="25" maxlength="10" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="text" name="pswd" size="25" maxlength="10" required></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date" name="dob" required></td>
+            </tr>
+            <tr>
+                <td>Web URL:</td>
+                <td><input type="url" name="web" size="25" required></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" name="address" size="25" maxlength="25" required></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><select name="city">
+                        <option value="Karachi">Karachi</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Multan">Multan</option> 
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td><input type="text" name="state" size="25" maxlength="15" required></td>
+            </tr>
+            <tr>
+                <td>Zip:</td>
+                <td><input type="text" name="zip" size="25" maxlength="15"></td>
+            </tr>
+            <tr>
+                <td>Magazine:</td>
+                <td><select name="magazine" multiple="multiple">
+                    <option value="Newsweek">Newsweek</option>
+                    <option value="Time">Time</option>
+                    <option value="Fortune">Fortune</option>
+                    <option value="TV Guide">TV Guide</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Additional Comments:</td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea name="comments" cols="50" rows="8" required></textarea></td>
+            </tr>
+            <tr>
+                <td>Upload your profile picture:</td>
+                <td><input type="file" name="pic" required><br />
+                <button type="submit" class="head">Upload</button></td>
+            </tr>
+            <tr>
+                <td><button type="submit" class="head">Send Your Order</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+#glo
+{
+    color: #DC3720  ;
+    font-size: 40px;
+    font-family: Georgia, serif;
+}
+.letters
+{
+    color: #DC3720  ;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+.def
+{
+    color: white;
+    border: 1px solid white;
+    background-color: #D5D3D2;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 22px;
+    padding: 10px 0px 10px 13px;
+    border-radius: 8px;
+    margin: 10px 0px 10px 0px;
+}

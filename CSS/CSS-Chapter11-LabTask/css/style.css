@@ -1,0 +1,45 @@
+body{
+    background-color: #D0D8F4  ;
+}
+#jenware{
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #878483  ;
+}
+#gifts{
+    font-family: Georgia, serif;
+}
+#Testimonials
+{
+    background-color:  #CDCED1;
+}
+.para
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 12px;
+}
+#head{
+    color:  #8194EA ;
+}
+.glassware
+{
+    color: #4C65D6 ;
+}
+#white
+{
+    background-color: white;
+}
+.italic
+{
+    color: orange;
+}
+.fonts
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 12px;
+}
+#footer
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 10px;
+    color: #7489EA;
+}

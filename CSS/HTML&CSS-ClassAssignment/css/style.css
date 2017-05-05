@@ -1,0 +1,144 @@
+#first
+{
+    box-shadow: 0px 0px 10px 6px lightgrey;
+    width: 410px;
+    height: 680px;
+    margin: 60px 0px 0px 300px;
+    display: inline-block;
+    background-color: #fcfbfb;
+}
+#header
+{
+    margin: -20px 10px 20px 0px;
+} 
+#nav
+{
+    margin:29px 0px 0px 20px;
+}
+.field
+{
+    border: 1px solid #dfd6d6;
+    opacity: 0.6;
+    font-size: 16px;
+}
+#fp
+{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 16px;
+}
+.txt
+{
+    width: 353px;
+    height: 27px;
+    border-bottom: 1px solid #D5D6D6;
+    border: none;
+    margin: 25px 10px 5px 0px;
+
+}
+.green
+{
+    border: 1px solid #4caf4f;
+    background-color: #4caf4f;
+    color: white;
+    height: 45px;
+    width: 360px;
+    border-radius: 4px;
+    margin: 10px 5px 10px 5px;
+    font-size: 17px;
+    }
+.box
+{
+    margin: 5px 0px 50px 25px
+}
+#blue
+{
+    color: dodgerblue;
+    text-decoration: none;
+}
+#fot
+{
+    background-color: #F3EADA;
+    height: 162px;
+    margin: -30px 0px 0px 0px;
+}
+#word
+{
+    color: lightslategray;
+    padding: 10px 0px 40px 0px;
+}
+#second
+{
+    box-shadow: 0px 0px 10px 6px lightgrey;
+    width: 410px;
+    height: 670px;
+    margin-top: -472px;
+    margin-left: 740px;
+    display: inline-block;
+    background-color: #fcfbfb;   
+}
+#header2
+{
+ margin: -20px 10px 20px 0px;   
+}
+#second-nav
+{
+    margin:29px 0px 0px 20px;
+}
+#nav2 ul li
+{
+    display: inline-block;
+    width: 43%;
+    text-align: center;
+    font-size: 16px;
+    margin: 25px 10px 0px 0px;
+}
+#nav2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif	
+}
+#gray
+{
+    opacity: 0.6;
+}
+#green
+{
+    background-color: #4caf4f;
+    margin: 20px 0px 0px 0px;
+}
+.check
+{
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    margin: 25px 0px 0px 0px;
+}
+#service
+{
+    color: dodgerblue;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;	
+}
+#terms
+{
+    font-size: 14px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: -20px 0px -10px 20px;
+}
+body{
+    background-color: #EEEBEA;
+}
+#icons
+{
+    width: 100%;
+    text-align: center;
+}
+.google
+{
+    background-color: #ffffff;
+    padding: 17px 0px 17px 0px;
+    border-radius: 50%;
+    color: #537CD1;
+    width: 14%;
+    margin: -20px 10px 0px 10px;
+}

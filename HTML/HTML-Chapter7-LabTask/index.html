@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>User Name: </td>
+                <td><input type="text" name="username" required="required"></td>
+            </tr>
+            <tr>
+                <td>Password: </td>
+                <td><input type="password" name="pswd" required="required"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth: </td>
+                <td><input type="date" name="dob" required="required"></td>
+            </tr>
+            <tr>
+                <td>Web URL: </td>
+                <td><input type="url" name="website" required="required"></td>
+            </tr>
+            <tr>
+                <td>City: </td>
+                <td><select name="city">
+                    <option value="karachi">Karachi</option>
+                    <option value="lahore">Lahore</option>
+                    <option value="peshawar">Peshawar</option>
+                </td>
+            </tr>
+            <tr>
+                 <td>State: </td>
+                 <td><input type="text" name="state" size="6"></td>
+            </tr>
+            <tr>
+                <td>Zip: </td>
+                <td><input type="text" name="zip" size="6"></td>
+            </tr>
+            <tr>
+                <td>Magazine: </td>
+                <td><select name="magazine" size="4" multiple="multiple">
+                    <option value="newsweek">Newsweek</option>
+                    <option value="time">Time</option>
+                    <option value="fortune">Fortune</option>
+                    <option value="tv guide">TV Guide</option>
+                </td>
+            </tr>
+            <tr> 
+                <td colspan="2"><fieldset>
+                <legend>Contact Details</legend>
+                <label>Email: <br />
+                <input type="email" name="email" required="required"></label><br />
+                <label>Mobile: <br />
+                <input type="text" name="mobileno" required="required"></label><br />
+                <label>Telephone: <br />
+                <input type="text" name="telephone"></label>
+                </fieldset><td>
+            <tr>
+                <td>Additional Comments: </td>
+            </tr>
+            <tr >
+                <td colspan="2"><textarea name="comments" cols="50" rows="8"></textarea></td>
+            </tr>
+            <tr>
+                <td>Upload your profile picture: </td>
+           
+                <td >
+                    <input type="file" name="pic"> <br>
+                    <input type="submit" value="upload"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Send Your Order"></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="email" name="email" required="required"></td>
+            </tr>
+            <tr>
+                <td>Subscription: </td>
+                <td><input type="radio" name="subscription" value="1 year">1 Year
+                <input type="radio" name="subscription" value="2 year">2 Year</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" name="check" value="yes! put me on the list">Yes! put me on the list!</td>
+            </tr>
+            <tr>
+                <td><button><img src="./images/subscribe.jpeg" alt="buttonpic" height="40px" width="170px"></button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

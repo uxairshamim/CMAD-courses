@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1st Assignment</title>
+</head>
+<body>
+    <h2>Testform</h2>
+    <hr />
+    <form>
+        <table cellspacing="13"> 
+            <tr>
+                <td><label>Name</label></td>
+                <td><label><input type="text" name="name"></label></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><label><input type="password" name="pswd"></label></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><label><input type="radio" name="genre" value="Male" checked="checked">Male</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label><input type="radio" name="genre" value="Female">Female</label></td>
+            </tr>
+            <tr>
+                <td>Continent</td>
+                <td><select name="continet">
+                        <option>Please select..</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Europe">Europe</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Meals</label></td>
+                <td><input type="checkbox" name="meals" value="breakfast">breakfast</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="meals" value="launch">launch</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="meals" value="dinner">dinner</td>
+            </tr>
+            <tr>
+                <td valign="top">Remarks</td>
+                <td>
+                    <textarea name="comments" cols="50" rows="8"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="submit" name="send" value="Send"></td>
+                <td><input type="submit" name="cancel" value="Cancel"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
