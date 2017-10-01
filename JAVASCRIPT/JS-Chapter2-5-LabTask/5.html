@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+
+        //1st
+
+        var $firstNumber = 3;
+        var $secondNumber = 5;
+
+        var result = $firstNumber+$secondNumber;
+
+        document.write("Sum of 3 and 5 is : "+result);
+
+        //2nd
+
+        $sub = $firstNumber-$secondNumber;
+
+        document.write("<br />Sub of 3 and 5 is : "+$sub);
+
+        $mul = $firstNumber*$secondNumber;
+
+        document.write("<br />Mul of 3 and 5 is : "+$mul);
+
+        $div = $secondNumber/$firstNumber;
+
+        document.write("<br />Div of 3 and 5 is : "+$div);
+
+        $mod = $secondNumber%$firstNumber;
+
+        document.write("<br />Sub of 3 and 5 is : "+$mod);
+
+
+        //3rd
+
+        var $thirdNumber;
+
+        document.write("<br />Value after variable declaration is: "+$thirdNumber);
+
+        $thirdNumber = 5;
+
+        document.write("<br />Initial value is : "+$thirdNumber);
+
+        var $increment = ++$thirdNumber;
+
+        document.write("<br />Value after increment is : "+$increment);
+
+        var $add = $increment + 7;
+
+        document.write("<br />Value after addition is : "+$add);
+
+        var $decrement = --$add;
+
+        document.write("<br />Value after decrement is : "+$decrement);
+
+        var $div = $decrement%3;
+
+        document.write("<br />The reminder is : "+$div);
+
+
+        //4th
+
+        var $oneTicket = 600;
+
+        var $buy = $oneTicket * 5;
+
+        document.write("<br />Total cost to buy 5 tickets to a movie is : "+$buy+" PKR ");
+
+        //5th
+
+        document.write("<br /><br /><br />");
+
+        document.write("<h2>Table of 4</h2>")
+
+        var $num = 4;
+
+        for(var i = 1; i<=10; i++)
+        {
+
+            document.write($num+" * "+i+" = "+$num*i);
+            document.write("<br />")
+            
+        }
+        
+
+        document.write("<br /><br /><br />");
+
+        document.write("<h2>The tempreture converter</h2>");
+
+        var $cel = 25;
+
+        var $far = 70;
+
+        var $celResult = ($far - 32) * 5/9;
+
+        var $farResult = ($cel * 9/5) + 32;
+
+        document.write($cel+"<sup>0</sup>C is "+$celResult);
+
+        document.write("<br />"+$far+"<sup>0</sup>F is "+$farResult);
+
+
+        //7th
+        
+        document.write("<br /><br /><br />");
+
+        var $priceOfItem1 = 650;
+
+        var $priceOfItem2 = 100;
+        
+        var $quanOFItem1 = 3;
+
+        var $quanOfItem2 = 7;
+
+        var $shippingCharges = 100;
+
+        var $totalCost = ($priceOfItem1 * $quanOFItem1) + ($priceOfItem2 * $quanOfItem2) + 100;
+
+        document.write("Price of item 1 is : "+$priceOfItem1);  
+
+        document.write("<br />Quantity of item 1 is : "+$quanOFItem1);
+
+        document.write("<br />Price of item 2 is : "+$priceOfItem2);
+
+        document.write("<br />Shipping Charges : "+$shippingCharges);
+        
+        document.write("<br />Total cost of your order is  : "+$totalCost);
+
+
+        // 8th
+
+        document.write("<br /><br /><br />");
+
+        document.write("<h2>Mark Sheet</h2>");
+
+        var $totalMarks = 980;
+
+        var $marksObt = 804;
+
+        var $per = $marksObt/$totalMarks * 100;
+
+        document.write("<br />Total Marks : "+$totalMarks);
+
+        document.write("<br />Mraks Obtained : "+$marksObt);
+
+        document.write("<br />Percentage : "+$per);
+
+
+        // 9th
+
+        document.write("<br /><br /><br />");
+
+        document.write("<h2>Currency in PKR</h2>");
+
+        var $usDollars = 10;
+
+        var $saudiRiyal = 25;
+
+        var $usDollarsRate = 104.80;
+
+        var $saudiRiyalRate = 28;
+
+        var $totalPKR = ($usDollars * $usDollarsRate) + ($saudiRiyal * $saudiRiyalRate);
+
+        document.write("<br />Currency in PKR is : "+$totalPKR);
+
+
+        // 10th
+
+        document.write("<br /><br /><br />");
+
+        var $someNumber  = 100;
+
+        var $resultOfExp = ($someNumber + 5) * 10 /2;
+
+        document.write("Result of expression is : "+$resultOfExp);
+
+
+        // 11th
+
+
+        document.write("<br /><br /><br />");
+
+        var $currentYear = 2017;
+
+        var $birthYear = 1994;
+
+        var $ageResult = $currentYear - $birthYear;
+
+        document.write("<h2>Age Calculator</h2>");
+
+        document.write("Current Year : "+$currentYear);
+
+        document.write("<br /> Birth Year : "+$birthYear);
+
+        document.write("<br /> Your age is : "+$ageResult); 
+
+
+        // 12th
+
+        document.write("<br /><br /><br />");
+
+        document.write("<h2>The Geometrizer</h2>");
+
+        var $radOfCircle = 20;
+
+        var $circum = 2 * 3.141 * $radOfCircle;
+
+        var $area = 3.141 * ($radOfCircle * $radOfCircle);
+
+        document.write("<br />Radius of a circle is : "+$radOfCircle);
+
+        document.write("<br />The circumference is : "+$circum);
+
+        document.write("<br />The area is : "+$area);
+
+
+        // 13th
+
+        document.write("<br /><br /><br />");
+
+        document.write("<h2>The Lifetime supply calculator</h2>");
+
+        var $favSnack  = "Chocolate chip";
+
+        var $currAge = 15;
+
+        var $estMaxAge = 65;
+
+        var $amoOfSnacksPerDay = 3;
+
+        var $final = "You will need "+150+"  "+$favSnack+" to last you until the rape old age "+$estMaxAge+" . ";
+
+        document.write("<br />Favourite snack : "+$favSnack);
+
+        document.write("<br />Current age : "+$currAge);
+
+        document.write("<br />Estimated maximum age :  "+$estMaxAge);
+
+        document.write("<br />Amount of snacks per day : "+$amoOfSnacksPerDay);
+
+        document.write("<br />"+$final);
+        
+</script>
+
+</body>
+</html>
